@@ -1,5 +1,5 @@
 {
-  "name": "@pindouai/mcp-server",
+  "name": "pindouai-mcp-server",
   "version": "1.0.0",
   "description": "An official Model Context Protocol (MCP) server for PindouAI. Generate Perler beads and pixel art patterns directly from Cursor and Claude.",
   "main": "dist/index.js",

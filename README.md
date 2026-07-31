@@ -1,6 +1,6 @@
 # PindouAI MCP Server
 
-[![smithery badge](https://smithery.ai/badge/@pindouai/mcp-server)](https://smithery.ai/server/@pindouai/mcp-server)
+[![smithery badge](https://smithery.ai/badge/pindouai-mcp-server)](https://smithery.ai/server/pindouai-mcp-server)
 
 An official [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) server for **[PindouAI](https://pindouai.app)**.
 
@@ -30,7 +30,7 @@ To use this with Claude Desktop, add the following to your `claude_desktop_confi
       "command": "npx",
       "args": [
         "-y",
-        "@pindouai/mcp-server"
+        "pindouai-mcp-server"
       ]
     }
   }
@@ -43,7 +43,7 @@ To use this with Cursor, go to `Cursor Settings > Features > MCP` and add a new 
 
 - **Name**: `pindouai`
 - **Type**: `command`
-- **Command**: `npx -y @pindouai/mcp-server`
+- **Command**: `npx -y pindouai-mcp-server`
 
 ## Local Development
 
