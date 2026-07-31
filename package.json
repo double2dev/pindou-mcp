@@ -1,0 +1,42 @@
+{
+  "name": "@pindouai/mcp-server",
+  "version": "1.0.0",
+  "description": "An official Model Context Protocol (MCP) server for PindouAI. Generate Perler beads and pixel art patterns directly from Cursor and Claude.",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "pindou-mcp": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/double2dev/pindou-mcp.git"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "pixel-art",
+    "perler-beads",
+    "ai-generator",
+    "cursor",
+    "claude",
+    "pindouai"
+  ],
+  "author": "PindouAI",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/double2dev/pindou-mcp/issues"
+  },
+  "homepage": "https://pindouai.app",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  }
+}
