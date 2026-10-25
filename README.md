@@ -1,6 +1,6 @@
 # PindouAI MCP Server
 
-[![smithery badge](https://smithery.ai/badge/pindouai-mcp-server)](https://smithery.ai/server/pindouai-mcp-server)
+[![LightNow capabilities](https://lightnow.ai/badge/io.github.double2dev/pindou-mcp)](https://lightnow.ai/servers/io.github.double2dev/pindou-mcp)
 
 An official [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) server for **[PindouAI](https://pindouai.app)**.
 
